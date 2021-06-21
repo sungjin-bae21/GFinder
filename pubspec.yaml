@@ -24,6 +24,8 @@ dependencies:
   flutter:
     sdk: flutter
   web_scraper:
+  webview_flutter: ^2.0.8
+  puppeteer: ^2.2.0
   english_words: 4.0.0
 
 
