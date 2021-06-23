@@ -1,10 +1,8 @@
-import 'package:g_finder/my_puppeteer.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class SmileGate {
   bool _loadCompleted = false;
   WebViewController? _controller;
-  MyPuppeteer myPuppeteer = new MyPuppeteer();
   //WebScraper _webScraper = WebScraper("https://careers.smilegate.com");
 
   SmileGate() {

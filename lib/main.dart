@@ -4,7 +4,6 @@
 
 import 'package:flutter/material.dart';
 import 'main_widget.dart';
-import 'my_test_webview.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter UI',
       debugShowCheckedModeBanner: false,
-      home: WebViewExample(),
+      home: MainWidget(),
     );
   }
 }
